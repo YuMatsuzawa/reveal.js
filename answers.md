@@ -1,1 +1,0 @@
-/Users/yumatsuzawa/0428_ruby_problems_answers/answers.md
