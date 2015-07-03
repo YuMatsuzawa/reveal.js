@@ -1,4 +1,4 @@
 #!/bin/sh
-cd ~/misc/reveal.js/
+cd ~/Presentations/reveal.js/
 grunt serve
 cd -
