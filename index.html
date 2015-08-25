@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
     <link rel="stylesheet" href="css/reveal.css">
     <!--[list of themes] sky/beige/simple/serif/night/black/wthite/league/blood/kancolleetc. -->
-    <link rel="stylesheet" href="css/theme/night.css" id="theme">
+    <link rel="stylesheet" href="css/theme/kancolle.css" id="theme">
     <!-- Code syntax highlighting -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
     <!-- Printing and PDF exports -->
@@ -27,14 +27,15 @@
     <![endif]-->
   </head>
   <body>
+    <pre style="display:none"><code></code></pre>
     <div class="reveal">
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
-        <section data-markdown="slides/0624.md"
+        <section data-markdown="slides/0826.md"
                  data-separator="^\n---\n"
-             data-separator-vertical="^\n>>>\n"
-             data-separator-notes="^\^\n"
-             data-charset="">
+                 data-separator-vertical="^\n>>>\n"
+                 data-separator-notes="^\^\n"
+                 data-charset="">
         </section>
       </div>
     </div>
@@ -47,10 +48,11 @@
       // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
+        controls : true,
+        progress : true,
+        history  : true,
+        center   : true,
+        fragments: true,
 
         transition: 'slide', // none/fade/slide/convex/concave/zoom
         math: {
